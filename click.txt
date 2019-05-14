@@ -1,0 +1,10 @@
+$delay = 14695
+$tickup = 4
+$i = 0
+while($i -eq 0)
+{
+Click-MouseButton left
+$delay = $delay + $tickup
+Write-Output $delay;
+Start-Sleep -m $delay
+}
