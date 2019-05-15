@@ -1,7 +1,7 @@
 import pgzrun # reqtop
 
 WIDTH = 500
-LENGTG = 700
+HEIGHT = 700
 
 def draw():
     screen.fill((128, 0, 0))
