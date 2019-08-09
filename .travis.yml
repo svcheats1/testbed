@@ -1,1 +1,2 @@
 language: python
+script: python src/main.py
